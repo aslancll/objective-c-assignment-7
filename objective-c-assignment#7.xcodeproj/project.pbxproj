@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		63262F5420DF0C8F00E7FB20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262F5320DF0C8F00E7FB20 /* main.m */; };
+		63262F6020DF0CB600E7FB20 /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262F5A20DF0CB500E7FB20 /* InputCollector.m */; };
+		63262F6120DF0CB600E7FB20 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262F5E20DF0CB600E7FB20 /* Doctor.m */; };
+		63262F6220DF0CB600E7FB20 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 63262F5F20DF0CB600E7FB20 /* Patient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		63262F5020DF0C8F00E7FB20 /* objective-c-assignment#7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "objective-c-assignment#7"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63262F5320DF0C8F00E7FB20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63262F5A20DF0CB500E7FB20 /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
+		63262F5B20DF0CB500E7FB20 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		63262F5C20DF0CB500E7FB20 /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		63262F5D20DF0CB600E7FB20 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		63262F5E20DF0CB600E7FB20 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		63262F5F20DF0CB600E7FB20 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +66,12 @@
 		63262F5220DF0C8F00E7FB20 /* objective-c-assignment#7 */ = {
 			isa = PBXGroup;
 			children = (
+				63262F5D20DF0CB600E7FB20 /* Doctor.h */,
+				63262F5E20DF0CB600E7FB20 /* Doctor.m */,
+				63262F5C20DF0CB500E7FB20 /* InputCollector.h */,
+				63262F5A20DF0CB500E7FB20 /* InputCollector.m */,
+				63262F5B20DF0CB500E7FB20 /* Patient.h */,
+				63262F5F20DF0CB600E7FB20 /* Patient.m */,
 				63262F5320DF0C8F00E7FB20 /* main.m */,
 			);
 			path = "objective-c-assignment#7";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63262F6020DF0CB600E7FB20 /* InputCollector.m in Sources */,
+				63262F6220DF0CB600E7FB20 /* Patient.m in Sources */,
 				63262F5420DF0C8F00E7FB20 /* main.m in Sources */,
+				63262F6120DF0CB600E7FB20 /* Doctor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
